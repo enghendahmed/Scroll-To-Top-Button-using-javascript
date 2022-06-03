@@ -1,0 +1,47 @@
+/****** start global *****/
+*{
+    padding: 0;
+    margin: 0;
+}
+/******** end global *******/
+
+
+/****** Start Body ******/
+body{
+    height: 4000px;
+}
+/****** End Body ******/
+
+
+/****** start header ******/
+header{
+    padding-top: 20px;
+}
+
+header .container{
+    width: 1100px;
+    margin: auto;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/****** end header ******/
+
+
+/*start scroll to top*/
+.up{
+	position: fixed;
+	right: -50px;
+	bottom: 50px;
+	cursor: pointer;
+	padding: 2px;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 1s;
+}
+.up.show{
+	right: 50px;
+}
+/*End scroll to top*/
